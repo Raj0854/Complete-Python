@@ -1,235 +1,240 @@
 
-# Day 1 – Introduction to Programming & Python (Theory)
+# Day 01 — Programming Fundamentals and Python Introduction
 
-**Level:** Beginner  
-**Total Topics:** 17  
-**Category:** Theory
+## Learning Objectives
 
-## Objective
-Is Day mein student programming fundamentals, Python introduction, installation aur basic syntax ko understand karega.
+By the end of this lesson, the student should be able to:
+
+- Understand what programming means.
+- Understand what a programming language is.
+- Explain how software works at a basic level.
+- Understand what Python is.
+- Know the history of Python.
+- Identify the major features of Python.
 
 ---
 
-## 1. What is Programming?
+# 1. What is Programming?
 
-**Brief:** Programming ka matlab computer ko instructions dena hai, jisse computer specific tasks perform kar sake.
+Programming is the process of giving instructions to a computer to perform specific tasks.
 
-**Subtopics:**
-- Meaning of Programming
-- How Programming Works
-- Instructions and Commands
-- Real-Life Examples of Programming
+A computer cannot understand our intentions directly. We must provide instructions in a format that it can process.
 
-## 2. What is a Programming Language?
+These instructions are written using programming languages.
 
-**Brief:** Programming language ek medium hai jiske through hum computer ko instructions dete hain.
+### Real-Life Example
 
-**Subtopics:**
-- Definition of Programming Language
-- High-Level Languages
-- Low-Level Languages
-- Machine Language
-- Compiler vs Interpreter
+Imagine you want a computer to calculate the total price of two products.
 
-## 3. What is Python?
+You need to provide instructions:
 
-**Brief:** Python ek high-level, general-purpose programming language hai. Iska syntax simple aur readable hota hai.
+1. Take the price of the first product.
+2. Take the price of the second product.
+3. Add both prices.
+4. Display the total.
 
-**Subtopics:**
-- Introduction to Python
-- Why Python?
-- Python Applications
-- Python Language Design
-- Python Use Cases
+This process of writing instructions for a computer is called programming.
 
-## 4. History of Python
+### Important Terms
 
-**Brief:** Python ko Guido van Rossum ne develop kiya tha. Iska first public release 1991 mein hua tha.
+- **Program:** A set of instructions written to perform a task.
+- **Programmer:** A person who writes and maintains programs.
+- **Programming:** The process of creating instructions for computers.
+- **Software:** A collection of programs that performs specific tasks.
 
-**Subtopics:**
-- Creator of Python
-- Development History
-- First Python Release
-- Python 2 vs Python 3
-- Python Versions
+### Where is Programming Used?
 
-## 5. Features of Python
-
-**Brief:** Python ki special qualities jo ise popular programming language banati hain.
-
-**Subtopics:**
-- Easy to Learn
-- Readable Syntax
-- Interpreted Language
-- Dynamically Typed
-- Object-Oriented
-- Open Source
-- Cross-Platform
-- Large Standard Library
-
-## 6. Applications of Python
-
-**Brief:** Python ka use different industries aur development fields mein hota hai.
-
-**Subtopics:**
-- Web Development
+- Websites
+- Mobile applications
+- Desktop software
+- Games
+- Banking systems
 - Artificial Intelligence
-- Machine Learning
-- Data Science
 - Automation
-- Software Development
-- Cybersecurity
-- Game Development
-
-## 7. Python vs Other Programming Languages
-
-**Brief:** Different programming languages ke features aur use cases compare karna.
-
-**Subtopics:**
-- Python vs C
-- Python vs C++
-- Python vs Java
-- Python vs JavaScript
-- Performance Comparison
-- Syntax Comparison
-- Use Case Comparison
-
-## 8. Installing Python
-
-**Brief:** Python programs execute karne ke liye system mein Python interpreter install karna hota hai.
-
-**Subtopics:**
-- Downloading Python
-- Installing Python on Windows
-- Installing Python on Linux
-- Installing Python on macOS
-- Add Python to PATH
-- Verify Python Installation
-
-## 9. Installing VS Code / PyCharm
-
-**Brief:** Code editor ya IDE ek software hai jisme hum Python code write, edit aur execute karte hain.
-
-**Subtopics:**
-- Introduction to Code Editors
-- Installing VS Code
-- Installing PyCharm
-- Python Extension
-- Creating Python Files
-- Running Python Programs
-
-## 10. Setting Up Python Environment
-
-**Brief:** Python environment configure karna seekhenge taaki hum properly programs create aur execute kar sakein.
-
-**Subtopics:**
-- Creating Project Folder
-- Creating Python Files
-- Selecting Python Interpreter
-- Configuring Terminal
-- Understanding Workspace
-- Running Python Scripts
-
-## 11. Understanding Python Interpreter
-
-**Brief:** Python interpreter hamare Python code ko execute karta hai aur instructions ko process karta hai.
-
-**Subtopics:**
-- What is an Interpreter?
-- How Python Executes Code
-- Source Code
-- Bytecode
-- Python Virtual Machine (PVM)
-- Execution Process
-
-## 12. Python Shell vs Python Script
-
-**Brief:** Python Shell mein hum directly commands execute kar sakte hain, jabki Python Script mein code save karke execute karte hain.
-
-**Subtopics:**
-- Introduction to Python Shell
-- Interactive Mode
-- Script Mode
-- Creating `.py` Files
-- Running Scripts from Terminal
-
-## 13. First Python Program – Hello World
-
-**Brief:** Apna first Python program create aur execute karna seekhenge.
-
-**Subtopics:**
-- Creating First Python File
-- Writing First Program
-- Executing Python Code
-- Understanding Program Output
-- Basic Syntax Understanding
-
-## 14. Understanding print() Function
-
-**Brief:** `print()` function ka use output ko screen ya terminal par display karne ke liye hota hai.
-
-**Subtopics:**
-- Basic Print Statement
-- Printing Text
-- Printing Numbers
-- Printing Multiple Values
-- Using Separators (`sep`)
-- Using End Parameter (`end`)
-
-## 15. Python Syntax and Indentation
-
-**Brief:** Syntax programming language ke rules hain. Python mein indentation code blocks define karne ke liye important hoti hai.
-
-**Subtopics:**
-- Python Syntax Rules
-- Indentation
-- Code Blocks
-- Statements
-- Case Sensitivity
-- Syntax Errors
-- Code Formatting
-
-## 16. Comments in Python
-
-**Brief:** Comments code ke andar written explanations hote hain, jinhe Python execute nahi karta.
-
-**Subtopics:**
-- Single-Line Comments
-- Multi-Line Comments
-- Inline Comments
-- Code Documentation
-- Commenting Best Practices
-
-## 17. Keywords and Identifiers
-
-**Brief:** Keywords Python ke reserved words hote hain, jabki identifiers variables, functions aur classes ke names hote hain.
-
-**Subtopics:**
-- What are Keywords?
-- Python Reserved Words
-- What are Identifiers?
-- Identifier Naming Rules
-- Valid and Invalid Identifiers
-- Checking Keywords
+- Data analysis
 
 ---
 
-## Day 1 – Theory Completion Checklist
+# 2. What is a Programming Language?
 
-- [ ] Understand Programming Fundamentals
-- [ ] Understand Programming Languages
-- [ ] Learn Python Introduction and History
-- [ ] Understand Python Features and Applications
-- [ ] Compare Python with Other Languages
-- [ ] Understand Python Installation
-- [ ] Learn IDE and Code Editor Concepts
-- [ ] Understand Python Environment
-- [ ] Understand Python Interpreter
-- [ ] Understand Shell vs Script
-- [ ] Learn Basic Python Syntax
-- [ ] Understand Comments
-- [ ] Understand Keywords and Identifiers
+A programming language is a language used to communicate instructions to a computer.
+
+Humans use natural languages such as English and Hindi. Computers process instructions through machine-level representations.
+
+Programming languages provide a structured way to write those instructions.
+
+### Examples of Programming Languages
+
+| Language | Common Uses |
+|---|---|
+| Python | Automation, AI, backend development, data science |
+| JavaScript | Website interactivity and web development |
+| Java | Enterprise applications and Android development |
+| C | System programming and embedded systems |
+| C++ | Game development and high-performance software |
+| PHP | Server-side web development |
+| C# | Windows applications and game development |
+
+### Why Do We Need Programming Languages?
+
+Without programming languages, writing complex computer instructions would be extremely difficult.
+
+They allow developers to:
+
+- Write understandable instructions.
+- Build applications.
+- Solve problems.
+- Automate repetitive tasks.
+- Process and manage data.
 
 ---
 
-**Day 1 – Theory Completed**
+# 3. What is Python?
+
+Python is a high-level, general-purpose programming language.
+
+It is popular because its syntax is relatively simple and readable.
+
+Python allows developers to write programs for different purposes, including web development, automation, artificial intelligence and data analysis.
+
+### Example
+
+```python
+print("Hello, World!")
+```
+
+This Python instruction displays the text:
+
+```text
+Hello, World!
+```
+
+### Why is Python Called a High-Level Language?
+
+A high-level programming language uses syntax that is easier for humans to understand compared with low-level machine instructions.
+
+Python allows programmers to focus more on solving problems instead of manually managing many hardware-level details.
+
+### Why is Python Called General-Purpose?
+
+Python is not limited to one particular type of application.
+
+It can be used to develop:
+
+- Websites and APIs
+- Automation scripts
+- Desktop applications
+- Artificial Intelligence systems
+- Machine Learning applications
+- Data analysis tools
+- Testing tools
+
+---
+
+# 4. History of Python
+
+Python was created by Guido van Rossum.
+
+Its development started in the late 1980s, and it was first publicly released in 1991.
+
+Python was designed to be readable, understandable and useful for general-purpose programming.
+
+### Important Milestones
+
+| Year | Event |
+|---|---|
+| 1989 | Development of Python began |
+| 1991 | First public release |
+| 2000 | Python 2.0 was released |
+| 2008 | Python 3.0 was released |
+| Today | Python is widely used across the software industry |
+
+### Who Created Python?
+
+Python was created by Guido van Rossum, a Dutch programmer.
+
+He is commonly known as the creator of Python.
+
+---
+
+# 5. Features of Python
+
+## 5.1 Simple and Readable
+
+Python code is designed to be easy to read and understand.
+
+Example:
+
+```python
+print("Welcome to Python")
+```
+
+## 5.2 High-Level Language
+
+Python hides many low-level hardware details, allowing developers to focus on application logic.
+
+## 5.3 Interpreted Language
+
+Python programs are commonly executed through a Python interpreter.
+
+The interpreter handles the execution process.
+
+## 5.4 General-Purpose Language
+
+Python can be used in different areas of software development.
+
+## 5.5 Dynamically Typed
+
+Python does not require the programmer to explicitly declare the data type of every variable.
+
+Example:
+
+```python
+age = 20
+name = "Raj"
+```
+
+Python determines the types of these values at runtime.
+
+## 5.6 Cross-Platform
+
+Python is available on multiple operating systems, including:
+
+- Windows
+- Linux
+- macOS
+
+## 5.7 Large Standard Library
+
+Python provides many built-in modules for common programming tasks.
+
+## 5.8 Open Source
+
+Python is open-source software. Its source code and development are publicly available.
+
+## 5.9 Object-Oriented Support
+
+Python supports object-oriented programming concepts such as classes and objects.
+
+## 5.10 Large Community
+
+Python has a large developer community, documentation resources and third-party libraries.
+
+---
+
+# Day 01 — Theory Revision
+
+1. What is programming?
+2. What is a program?
+3. What is a programming language?
+4. Name five programming languages.
+5. What is Python?
+6. Who created Python?
+7. In which year was Python first publicly released?
+8. What does general-purpose language mean?
+9. What does dynamically typed mean?
+10. Name five features of Python.
+
+## Completion Criteria
+
+The student should be able to explain programming, programming languages and Python in their own words.

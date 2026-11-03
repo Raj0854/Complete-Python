@@ -1,831 +1,408 @@
 
-# Day 1 – Introduction to Programming & Python
-## Practical Training Guide
+# Day 01 — Programming Fundamentals and Python Introduction (Practical)
 
-**Level:** Absolute Beginner  
-**Duration:** 5 Days  
-**Category:** Practical Training  
-**Prerequisite:** No coding knowledge required.
+## Learning Objectives
 
-## Training Objective
+By the end of this practical lesson, the student should be able to:
 
-Is Day ka objective student ko zero coding knowledge se Python programming ka basic practical experience dena hai.
-
-Student Day complete karne ke baad:
-- Python environment setup kar payega.
-- Python programs create aur execute kar payega.
-- Basic Python syntax understand karega.
-- print() function use kar payega.
-- Comments aur indentation understand karega.
-- Basic programming instructions likh payega.
+- Convert a real-life problem into computer instructions.
+- Understand Input, Process and Output.
+- Write a basic algorithm.
+- Understand how a program works.
+- Identify the purpose of different programming languages.
+- Read and understand a basic Python program.
+- Explain Python's basic features with examples.
 
 ---
 
-# Day 1 – Programming Basics & Python Environment Setup
+# Part 1 — Understanding How Programming Works
 
-## 1. Understanding Programming Through Practice
+## 1.1 First Programming Demonstration
 
-### Concept Explanation
+### Trainer Explanation
 
-Programming ka simple meaning hai computer ko instructions dena.
+Start with a simple question:
 
-Computer khud se nahi samajhta ki hume kya karwana hai. Hum programming language mein instructions likhte hain aur computer un instructions ko execute karta hai.
+"What instructions would you give a computer to calculate the sum of two numbers?"
 
-**Real-Life Example:**
+Let the student think and answer.
 
-Suppose hume computer se do numbers add karwane hain.
+Then explain that a computer needs clear and ordered instructions.
 
-Process:
-1. Computer ko first number denge.
-2. Computer ko second number denge.
-3. Computer ko addition karne ka instruction denge.
-4. Computer result display karega.
+### Real-Life Example: Adding Two Numbers
 
-Yahi programming ka basic concept hai.
+Suppose we want to add 10 and 20.
 
-### Trainer Activity
+Instructions:
 
-Student se ye questions poochho:
+1. Take the first number: 10.
+2. Take the second number: 20.
+3. Add both numbers.
+4. Show the answer.
 
-1. Programming kya hoti hai?
-2. Computer ko instructions kaun deta hai?
-3. Programming ka real-life example batao.
+Result: 30
 
----
+### Student Activity
 
-## 2. Python Installation Verification
+Ask the student to write instructions for:
 
-### Concept Explanation
+- Making a cup of tea.
+- Calculating the total price of two products.
+- Finding the area of a rectangle.
+- Checking whether a person is eligible to vote.
 
-Python programs execute karne ke liye system mein Python interpreter installed hona chahiye.
-
-Python interpreter hamare written code ko process aur execute karta hai.
-
-### Step 1: Open Terminal
-
-Windows mein:
-- Press `Win + R`.
-- Type `cmd`.
-- Press Enter.
-
-### Step 2: Check Python Version
-
-```bash
-python --version
-```
-
-**Expected Output:**
-
-```text
-Python 3.x.x
-```
-
-### Step 3: Check pip
-
-```bash
-pip --version
-```
-
-**Explanation:**
-
-`pip` Python ka package installer hai. Iska use external Python libraries install karne ke liye hota hai.
-
-### Student Task
-
-- Python version check karo.
-- pip version check karo.
-- Dono commands ka output identify karo.
+**Trainer Check:** Verify that the student writes instructions in the correct order and does not skip important steps.
 
 ---
 
-## 3. VS Code Setup
+# Part 2 — Input, Process and Output
 
-### Concept Explanation
+## 2.1 Understanding IPO
 
-VS Code ek code editor hai jisme hum programming code write, edit aur execute kar sakte hain.
+Every basic computer problem can be understood through three stages:
 
-Python extension VS Code ko Python development support provide karti hai.
+### Input
 
-### Setup Steps
+The information provided to a computer.
 
-1. Install Visual Studio Code.
-2. Open VS Code.
-3. Open Extensions.
-4. Search for Python.
-5. Install Microsoft Python Extension.
-6. Select Python Interpreter.
-7. Open integrated terminal.
+### Process
 
-### Create First Project
+The operation performed on the provided information.
 
-Folder structure:
+### Output
 
-```text
-Python-Training/
-│
-└── Day-01/
-    │
-    └── hello.py
-```
+The final result produced by the computer.
 
-### Student Task
+### Example: Calculate Total Price
 
-- Project folder create karo.
-- `hello.py` file create karo.
-- File ko VS Code mein open karo.
-- Python interpreter select karo.
+Suppose:
+
+- Product 1 price = 100
+- Product 2 price = 200
+
+| Stage | Description | Value |
+|---|---|---|
+| Input | First product price | 100 |
+| Input | Second product price | 200 |
+| Process | Add both prices | 100 + 200 |
+| Output | Total price | 300 |
+
+### Trainer Demonstration
+
+Ask the student to identify Input, Process and Output for these examples:
+
+1. Calculate the average of three numbers.
+2. Calculate a student's total marks.
+3. Calculate the area of a rectangle.
+4. Convert kilometres into metres.
+
+### Practice Exercise
+
+Complete the following:
+
+| Problem | Input | Process | Output |
+|---|---|---|---|
+| Add two numbers | ? | ? | ? |
+| Calculate percentage | ? | ? | ? |
+| Find rectangle area | ? | ? | ? |
+| Calculate shopping bill | ? | ? | ? |
 
 ---
 
-# Day 2 – First Python Program & print() Function
+# Part 3 — Writing an Algorithm
 
-## 1. Understanding Python Program Structure
+## 3.1 What is an Algorithm?
 
-### Concept Explanation
+An algorithm is a step-by-step sequence of instructions used to solve a problem.
 
-Python program instructions ka collection hota hai.
+Before writing code, programmers often plan the solution using an algorithm.
 
-Python mein hum `.py` extension wali files mein code write karte hain.
+### Example: Add Two Numbers
 
-Example:
+Algorithm:
+
+1. Start.
+2. Take the first number.
+3. Take the second number.
+4. Add both numbers.
+5. Display the result.
+6. Stop.
+
+### Trainer Explanation
+
+Explain that an algorithm describes the solution, not a particular programming language.
+
+The same algorithm can later be implemented using Python, Java, C++ or another language.
+
+### Student Practice
+
+Write algorithms for:
+
+1. Find the average of two numbers.
+2. Calculate the area of a square.
+3. Calculate the total bill after adding two product prices.
+4. Convert Celsius temperature into Fahrenheit.
+
+---
+
+# Part 4 — Understanding a Program
+
+## 4.1 Your First Python Code
 
 ```python
-print("Hello World")
+print("Hello, World!")
 ```
 
-**Code Explanation:**
+### Explanation
 
-- `print` Python ka built-in function hai.
-- `()` function ko call karne ke liye use hota hai.
-- `"Hello World"` ek string value hai.
-- Python is text ko terminal mein display karega.
+- `print()` is a built-in Python function.
+- The text inside quotation marks is a string.
+- `Hello, World!` is the message we want to display.
+- Parentheses contain the information passed to the function.
 
 ### Expected Output
 
 ```text
-Hello World
-```
-
-### Important Concept
-
-Python mein function execute karne ke liye uska naam aur parentheses use kiye jaate hain.
-
----
-
-## 2. Understanding print() Function
-
-### Concept Explanation
-
-`print()` Python ka built-in function hai.
-
-Iska use output screen ya terminal par display karne ke liye hota hai.
-
-### Example 1 – Printing Text
-
-```python
-print("Welcome to Python")
-```
-
-**Explanation:**
-
-Double quotes ke andar likha text terminal par display hoga.
-
-### Example 2 – Printing Numbers
-
-```python
-print(100)
-print(250)
-print(500)
-```
-
-**Explanation:**
-
-Numbers ko print karne ke liye quotes ki zarurat nahi hoti.
-
-### Example 3 – Printing Multiple Values
-
-```python
-print("Raj", 22, "Python Developer")
-```
-
-**Output:**
-
-```text
-Raj 22 Python Developer
-```
-
-**Explanation:**
-
-Ek hi print statement mein multiple values comma se separate karke pass kar sakte hain.
-
----
-
-## 3. Understanding sep Parameter
-
-### Concept Explanation
-
-`sep` ka full form separator hai.
-
-Jab print function mein multiple values hoti hain, tab default separator space hota hai.
-
-Hum `sep` se default space ko change kar sakte hain.
-
-### Example
-
-```python
-print("2026", "11", "03", sep="-")
-```
-
-**Output:**
-
-```text
-2026-11-03
+Hello, World!
 ```
 
 ### Another Example
 
 ```python
-print("Python", "Java", "C++", sep=" | ")
+print("My name is Raj")
+print("I am learning Python")
+print("This is my first program")
 ```
-
-**Output:**
-
-```text
-Python | Java | C++
-```
-
----
-
-## 4. Understanding end Parameter
-
-### Concept Explanation
-
-Normally Python ka print function output ke baad new line create karta hai.
-
-`end` parameter se hum decide kar sakte hain ki output ke baad kya add hona chahiye.
-
-### Example 1 – Default Behavior
-
-```python
-print("Hello")
-print("World")
-```
-
-**Output:**
-
-```text
-Hello
-World
-```
-
-### Example 2 – Custom End
-
-```python
-print("Hello", end=" ")
-print("World")
-```
-
-**Output:**
-
-```text
-Hello World
-```
-
-### Example 3 – Using Hyphen
-
-```python
-print("Python", end="-")
-print("Programming")
-```
-
-**Output:**
-
-```text
-Python-Programming
-```
-
----
-
-## 5. Practical Exercises – Day 2
-
-1. Print your full name.
-2. Print your age.
-3. Print your city and country.
-4. Print three different programming languages.
-5. Display your introduction in a single print statement.
-6. Use `sep` to display a date.
-7. Use `end` to display two messages on the same line.
-8. Create a simple welcome message using multiple print statements.
-
-### Day 2 Assessment
-
-Student ko bina help ke:
-- Text print karna aana chahiye.
-- Numbers print karne aane chahiye.
-- Multiple values print karna aana chahiye.
-- `sep` aur `end` ka difference explain karna aana chahiye.
-
----
-
-# Day 3 – Python Syntax, Indentation & Comments
-
-## 1. Understanding Python Syntax
-
-### Concept Explanation
-
-Syntax ka matlab programming language ke rules hota hai.
-
-Har programming language ke apne syntax rules hote hain.
-
-Agar hum Python ke syntax rules follow nahi karte, toh program mein errors aa sakte hain.
-
-### Correct Example
-
-```python
-print("Hello Python")
-```
-
-### Incorrect Example
-
-```python
-print("Hello Python"
-```
-
-**Explanation:**
-
-Incorrect example mein closing parenthesis missing hai.
-
-Python is wajah se SyntaxError generate karega.
-
-### Important Concepts
-
-- Statements
-- Expressions
-- Parentheses
-- Quotation Marks
-- Case Sensitivity
-- Syntax Errors
-
----
-
-## 2. Understanding Indentation
-
-### Concept Explanation
-
-Indentation ka matlab code ke beginning mein spaces dena hota hai.
-
-Python mein indentation code blocks define karne ke liye use hoti hai.
-
-Normally Python mein 4 spaces indentation ke liye recommended hain.
-
-### Example – Correct Indentation
-
-```python
-if 10 > 5:
-    print("10 is greater than 5")
-```
-
-### Example – Incorrect Indentation
-
-```python
-if 10 > 5:
-print("10 is greater than 5")
-```
-
-**Explanation:**
-
-Second example mein indentation missing hai, isliye Python IndentationError generate karega.
-
-### Important Points
-
-- Python indentation ko seriously consider karta hai.
-- Normally 4 spaces use karo.
-- Same code block mein consistent indentation rakho.
-- Tabs aur spaces ko unnecessarily mix mat karo.
-
----
-
-## 3. Understanding Comments
-
-### Concept Explanation
-
-Comments code ke andar written explanations hote hain.
-
-Python interpreter comments ko execute nahi karta.
-
-Comments ka main purpose code ko readable aur understandable banana hai.
-
-### Single-Line Comment
-
-```python
-# This is a single-line comment
-
-print("Hello Python")
-```
-
-### Inline Comment
-
-```python
-name = "Raj"  # Student name
-```
-
-### Multiple-Line Explanation
-
-```python
-# Student Information
-# Name: Raj
-# Course: Python
-# Level: Beginner
-
-print("Student Details")
-```
-
-**Important:** Python mein dedicated multiline comment syntax nahi hai. Multiple lines ke comments ke liye generally har line par `#` use kiya jata hai.
-
----
-
-## 4. Understanding Case Sensitivity
-
-### Concept Explanation
-
-Python case-sensitive language hai.
-
-Matlab uppercase aur lowercase letters ko different consider kiya jata hai.
-
-### Example
-
-```python
-name = "Raj"
-Name = "Altaf"
-
-print(name)
-print(Name)
-```
-
-**Output:**
-
-```text
-Raj
-Altaf
-```
-
-**Explanation:**
-
-`name` aur `Name` Python ke liye two different identifiers hain.
-
----
-
-## 5. Practical Exercises – Day 3
-
-1. Write a program with correct Python syntax.
-2. Create a program containing a syntax error and fix it.
-3. Write a program using proper indentation.
-4. Create a program containing single-line comments.
-5. Write inline comments in a program.
-6. Create two variables with different capitalization.
-7. Identify syntax errors in a given Python program.
-
-### Day 3 Assessment
-
-Student ko:
-- Python syntax explain karna aana chahiye.
-- Indentation ka purpose samajhna chahiye.
-- Comments create karne aane chahiye.
-- Case sensitivity understand honi chahiye.
-
----
-
-# Day 4 – Keywords, Identifiers & Python Shell
-
-## 1. Understanding Keywords
-
-### Concept Explanation
-
-Keywords Python ke reserved words hote hain.
-
-Inka already Python language mein special meaning hota hai.
-
-Hum keywords ko normal variable names ke roop mein use nahi kar sakte.
-
-### Examples
-
-```python
-if
-else
-for
-while
-class
-def
-return
-True
-False
-None
-```
-
-### Practical Example
-
-```python
-age = 20
-
-if age >= 18:
-    print("Eligible")
-```
-
-**Explanation:**
-
-`if` Python keyword hai. Iska use condition check karne ke liye hota hai.
-
----
-
-## 2. Understanding Identifiers
-
-### Concept Explanation
-
-Identifiers Python program mein variables, functions, classes aur other objects ko diye gaye names hote hain.
-
-### Example
-
-```python
-name = "Raj"
-age = 22
-city = "Mumbai"
-```
-
-Yahan:
-- `name` = Identifier
-- `age` = Identifier
-- `city` = Identifier
-
-### Identifier Naming Rules
-
-1. Identifier letters se start ho sakta hai.
-2. Underscore `_` se start ho sakta hai.
-3. Numbers se start nahi ho sakta.
-4. Spaces allowed nahi hain.
-5. Python keywords identifiers nahi ban sakte.
-6. Identifiers case-sensitive hote hain.
-
-### Valid Identifiers
-
-```python
-name = "Raj"
-student_age = 22
-_marks = 90
-age2 = 25
-```
-
-### Invalid Identifiers
-
-```python
-2name = "Raj"
-student age = 22
-class = "Python"
-```
-
----
-
-## 3. Python Shell vs Python Script
-
-### Concept Explanation
-
-Python mein code execute karne ke two common ways hain.
-
-**Python Shell:**
-
-Ismein hum commands directly enter karte hain aur immediate output milta hai.
-
-**Python Script:**
-
-Ismein hum code ko `.py` file mein save karte hain aur baad mein execute karte hain.
-
-### Python Shell Example
-
-```python
->>> 10 + 20
-30
->>> print("Hello")
-Hello
-```
-
-### Python Script Example
-
-Create `main.py`:
-
-```python
-a = 10
-b = 20
-
-print(a + b)
-```
-
-Run:
-
-```bash
-python main.py
-```
-
-Output:
-
-```text
-30
-```
-
-### Difference
-
-| Python Shell | Python Script |
-|---|---|
-| Interactive mode | Script mode |
-| Direct execution | File-based execution |
-| Quick testing | Complete programs |
-| Commands are entered directly | Code is saved in `.py` files |
-
----
-
-## 4. Practical Exercises – Day 4
-
-1. Identify 10 Python keywords.
-2. Create 5 valid identifiers.
-3. Identify 5 invalid identifiers.
-4. Write a program using different variable names.
-5. Execute arithmetic expressions in Python Shell.
-6. Create and execute a Python script.
-7. Explain the difference between Shell and Script.
-
-### Day 4 Assessment
-
-Student ko keywords, identifiers aur Python execution methods samajhne chahiye.
-
----
-
-# Day 5 – Final Practice & Mini Project
-
-## 1. Revision of Basic Concepts
-
-Student ke saath previous four days ke concepts revise karo.
-
-**Topics:**
-- Programming Fundamentals
-- Python Introduction
-- Python Installation
-- Python Environment
-- print() Function
-- sep and end Parameters
-- Python Syntax
-- Indentation
-- Comments
-- Keywords
-- Identifiers
-- Python Shell vs Script
-
----
-
-## 2. Independent Coding Exercises
-
-### Exercise 1 – Personal Introduction
-
-Create a Python program that displays:
-
-- Full Name
-- Age
-- City
-- Course
-- Learning Goal
-
-### Exercise 2 – Multiple Print Statements
-
-Display your introduction using at least five print statements.
-
-### Exercise 3 – Using sep Parameter
-
-Display the following output:
-
-```text
-Python | Java | C++ | JavaScript
-```
-
-### Exercise 4 – Using end Parameter
-
-Display the following output using multiple print statements:
-
-```text
-Welcome To Python Programming
-```
-
-### Exercise 5 – Comments
-
-Create a program with at least five meaningful comments.
-
-### Exercise 6 – Syntax Correction
-
-Find and correct errors in the following code:
-
-```python
-print("Hello Python"
-
-if 10 > 5:
-print("Correct")
-```
-
-### Exercise 7 – Identifier Practice
-
-Identify valid and invalid identifiers:
-
-```text
-name
-2student
-student_name
-class
-age2
-student age
-```
-
----
-
-## 3. Mini Project – Student Introduction System
-
-### Project Description
-
-Student ek simple introduction program create karega jo terminal par formatted student details display karega.
-
-### Requirements
-
-- Display project heading.
-- Display student name.
-- Display age.
-- Display city.
-- Display course name.
-- Display learning goal.
-- Use multiple print statements.
-- Use `sep` and `end` parameters.
-- Add meaningful comments.
 
 ### Expected Output
 
 ```text
-================================
-       STUDENT INTRODUCTION
-================================
-
-Name: Raj
-Age: 22
-City: Mumbai
-Course: Python Programming
-Goal: Become a Python Developer
-
-================================
-       THANK YOU!
-================================
+My name is Raj
+I am learning Python
+This is my first program
 ```
 
----
+### Trainer Demonstration
 
-## 4. Final Assessment – Day 1
+Explain that each `print()` instruction displays its message on a separate line.
 
-### Theory Questions
+If Python is already installed, run these examples. Otherwise, explain the code and run it after the environment setup on Day 2.
 
-1. What is Programming?
-2. What is Python?
-3. Who developed Python?
-4. Explain any five features of Python.
-5. What is a Python Interpreter?
-6. What is the difference between Python Shell and Script?
-7. What is the purpose of print()?
-8. What is indentation?
-9. What are comments?
-10. What are keywords and identifiers?
+### Student Practice
 
-### Practical Assessment
+Ask the student to understand and prepare code that displays:
 
-- [ ] Python Installation Verification
-- [ ] VS Code Setup
-- [ ] Create Python Files
-- [ ] Execute Python Programs
-- [ ] Use print() Function
-- [ ] Use sep Parameter
-- [ ] Use end Parameter
-- [ ] Write Comments
-- [ ] Apply Correct Indentation
-- [ ] Identify Keywords
-- [ ] Create Valid Identifiers
-- [ ] Use Python Shell
-- [ ] Execute Python Scripts
-- [ ] Complete All Coding Exercises
-- [ ] Complete Mini Project
+1. Their name.
+2. Their city.
+3. Their course name.
+4. Their learning goal.
+5. A welcome message.
 
 ---
+
+# Part 5 — Programming Language Identification
+
+## 5.1 Understand Different Languages
+
+Show the student examples of different programming languages.
+
+### Python
+
+```python
+print("Hello")
+```
+
+### JavaScript
+
+```javascript
+console.log("Hello");
+```
+
+### PHP
+
+```php
+<?php
+echo "Hello";
+?>
+```
+
+### Java
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+    }
+}
+```
+
+### C
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello");
+    return 0;
+}
+```
+
+### Trainer Explanation
+
+All these programs display the same message, but their syntax and execution environments are different.
+
+Explain that each language has its own rules and structure.
+
+### Student Activity
+
+Ask the student:
+
+1. Which example uses `print()`?
+2. Which example uses `console.log()`?
+3. Which example uses `echo`?
+4. Which example uses `System.out.println()`?
+5. Which language would we be learning?
+
+---
+
+# Part 6 — Python Features: Practical Understanding
+
+## 6.1 Simple and Readable
+
+Example:
+
+```python
+print("Learning Python")
+```
+
+Explain that Python's syntax is relatively simple and readable.
+
+## 6.2 Dynamically Typed
+
+Example:
+
+```python
+age = 20
+name = "Raj"
+```
+
+Explanation:
+
+- `age` stores an integer value.
+- `name` stores a string value.
+- Python determines their types automatically.
+
+Do not introduce detailed variable and data-type rules yet. Those will be covered in a later lesson.
+
+## 6.3 Cross-Platform
+
+Explain that Python programs can run on Windows, Linux and macOS when the required Python environment and dependencies are available.
+
+## 6.4 General-Purpose
+
+Demonstrate these areas where Python is used:
+
+- Web development
+- Automation
+- Artificial Intelligence
+- Data analysis
+- Desktop applications
+- Software testing
+
+Ask the student to identify one real-life application for each area.
+
+---
+
+# Part 7 — Practical Exercises
+
+## Exercise 1: Basic Programming Understanding
+
+Answer in your own words:
+
+1. What is programming?
+2. What is a program?
+3. Why do computers need instructions?
+4. What is a programming language?
+5. What is Python?
+
+## Exercise 2: Input, Process and Output
+
+Identify the three stages for:
+
+1. Adding two numbers.
+2. Calculating a student's percentage.
+3. Finding the area of a rectangle.
+4. Calculating the final shopping bill.
+
+## Exercise 3: Algorithm Writing
+
+Write step-by-step algorithms for:
+
+1. Making tea.
+2. Calculating the sum of three numbers.
+3. Calculating the average of five subjects.
+4. Finding the area of a circle.
+
+## Exercise 4: Python Code Reading
+
+Read the following code:
+
+```python
+print("Welcome to Python")
+print("I am a beginner")
+print("I will become a programmer")
+```
+
+Answer:
+
+1. How many print statements are present?
+2. How many lines will be displayed?
+3. What will be the first output?
+4. What will be the last output?
+
+## Exercise 5: Independent Task
+
+Prepare a small program using `print()` that displays:
+
+- Student name
+- City
+- Training course
+- Favourite programming language
+- Career goal
+
+---
+
+# Part 8 — Day 1 Assignment
+
+## Assignment: My First Programming Plan
+
+Create a document containing:
+
+1. Definition of programming.
+2. Definition of programming language.
+3. Introduction to Python.
+4. Five features of Python.
+5. Five real-world applications of Python.
+6. An algorithm to calculate the total of three numbers.
+7. Input, Process and Output for that algorithm.
+8. A basic Python program using three `print()` statements.
+
+## Trainer Assessment
+
+Before completing Day 1, verify the following:
+
+- [ ] Student can explain programming.
+- [ ] Student understands programming languages.
+- [ ] Student can explain what Python is.
+- [ ] Student knows who created Python.
+- [ ] Student understands the basic features of Python.
+- [ ] Student can identify Input, Process and Output.
+- [ ] Student can write a simple algorithm.
+- [ ] Student can read a basic Python program.
+- [ ] Student understands what `print()` does.
 
 ## Day 1 Completion Criteria
 
-Student ko next Day tabhi start karna chahiye jab woh:
+The student should be able to explain the basic programming concepts independently and convert simple real-life problems into step-by-step instructions.
 
-1. Python environment independently setup kar sake.
-2. Basic Python programs khud likh sake.
-3. print() function properly use kar sake.
-4. Syntax aur indentation errors identify kar sake.
-5. Keywords aur identifiers distinguish kar sake.
-6. Python Shell aur Script mein code execute kar sake.
-7. Mini project bina trainer ki help ke complete kar sake.
-
-**Day 1 Status: Completed**
-
-**Next Day: Day 2 – Variables & Data Types**
+**Next Lesson:** Day 2 — Python Applications, Language Comparison, Python Installation and Development Environment Setup.
